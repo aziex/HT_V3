@@ -1,0 +1,22 @@
+.webapp--wrapper {
+  #centrack_home {
+    min-height: 100vh;
+    main {
+      // padding: 0px;
+      overflow: hidden;
+      width: 100%;
+    }
+  }
+}
+
+.webapp--wrapper.light {
+  #centrack_home {
+    background-color: #f5f5f5;
+  }
+}
+
+.webapp--wrapper.dark {
+  #centrack_home {
+    background-color: #2d2d30;
+  }
+}
